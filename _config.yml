@@ -1,0 +1,25 @@
+---
+title: simon gasser elektrokontrollen
+description: kompetente, einfache, persönliche Elektrokontrollen
+url: "https://simon-gasser.ch"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+defaults:
+  scope:
+    path: ""
+    type: "pages"
+    values:
+      layout: "default"

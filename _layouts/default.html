@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}
+  </title>
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <link rel="stylesheet" href="{{ "/assets/css/poole.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/lanyon.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/images/apple-touch-icon-precomposed.png" | relative_url }}">
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml" | relative_url }}">
+
+  <script defer data-domain="simon-gasser.ch" src="https://plausible.io/js/plausible.js"></script>
+</head>
+
+<body class="sidebar-overlay layout-reverse">
+
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+  {% include sidebar.html %}
+
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="{{ "/" | relative_url }}" title="Hauseigentümer">simon gasser elektrokontrollen</a>
+          <small>kompetent, einfach, persönlich</small>
+        </h3>
+      </div>
+    </div>
+
+    <div class="container content">
+      {{ content }}
+    </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script src='{{ "/assets/js/script.js" | relative_url }}'></script>
+
+  <div class="container content">
+    {% include footer.html %}
+  </div>
+</body>
+</html>

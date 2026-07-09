@@ -1,0 +1,24 @@
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p><img src="{{ "/assets/images/Logo-langs.png" | relative_url }}" alt="simon gasser gmbh"> Elektrokontrollen in der Region Schaffhausen, Winterthur für Sie: "kompetent, einfach, persönlich"</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ "/" | relative_url }}">Hauseigentümer</a>
+    <a class="sidebar-nav-item{% if page.url == '/installationsfirmen/' %} active{% endif %}" href="{{ "/installationsfirmen/" | relative_url }}">Installationsfirmen</a>
+    <a class="sidebar-nav-item{% if page.url == '/immobilienverwaltungen/' %} active{% endif %}" href="{{ "/immobilienverwaltungen/" | relative_url }}">Immobilienverwaltungen</a>
+    <a class="sidebar-nav-item{% if page.url == '/termin-buchen/' %} active{% endif %}" href="{{ "/termin-buchen/" | relative_url }}">Termin buchen</a>
+    <a class="sidebar-nav-item{% if page.url == '/uber-uns/' %} active{% endif %}" href="{{ "/uber-uns/" | relative_url }}">Über uns</a>
+    <a class="sidebar-nav-item" href="{{ "/job/" | relative_url }}">Job<br><em style="color:#ccc">bei uns arbeiten</em></a>
+    <a class="sidebar-nav-item" href="https://erstpruefung.ch">Baubegleitende Erstprüfung <br><em style="color:#ccc">eine praktische Anleitung</em></a>
+    <a class="sidebar-nav-item" href="https://wa.me/41525572277" target="_blank"><img src="{{ "/assets/images/WhatsAppButtonGreenSmall.png" | relative_url }}" alt="WhatsApp" width="80%" /><br /><br /></a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      erstellt mit <a href="https://jekyllrb.com/">Jekyll</a> und dem <a href="https://lanyon.getpoole.com/">Lanyon</a> Theme.<br />
+      &copy; {% if site.time %}{{ site.time | date: '%Y' }}{% else %}2025{% endif %} simon gasser gmbh.<br /><br />
+      Illustrationen von <a href="http://linkedin.com/in/melina-gasser-313847210">Melina Gasser</a>
+    </p>
+  </div>
+</div>
