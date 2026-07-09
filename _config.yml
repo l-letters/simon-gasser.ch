@@ -18,8 +18,9 @@ exclude:
   - node_modules
 
 defaults:
-  scope:
-    path: ""
-    type: "pages"
+  - scope:
+      path: ""
+      type: "pages"
     values:
       layout: "default"
+      permalink: /:title/
