@@ -76,7 +76,7 @@ Kein Problem, mit diesen beiden Messungen stellen wir fest, ob ihre Leitungen no
   <li>Diesen sendet er auf Wunsch direkt Ihrem Hauselektriker, damit er sich mit Ihnen in Verbindung setzen kann und bereits weiss, was er bei Ihnen erledigen soll. Er versteht auch die technischen Ausdrücke auf dem Bericht und weiss, was er damit machen muss.</li>
   <li>Sobald wir von Ihrem Elektriker die Bestätigung erhalten haben dass die Mängel behoben sind, stellen wir Ihnen den Sicherheitsnachweis aus und senden diesen für Sie auch ans EW.</li>
   <li>Seit August 2024 gelten für Installationen nach Nullung Schema III (Installationen vor ca. 1975) verschärfte Auflagen.<br />
-weitere Informationen <a href="https://simon-gasser.ch/info-alte-installation" target="_blank">diesen Erläuterungen</a></li>
+weitere Informationen <a href="{{ "/info-alte-installation/" | relative_url }}">diesen Erläuterungen</a></li>
 </ul>
 
 <p>Bei grösseren, gefährlichen Mängeln führen wir eine kurze Nachkontrolle durch.</p>
