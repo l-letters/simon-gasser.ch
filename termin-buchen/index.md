@@ -23,11 +23,11 @@ Sie benötigen einen Termin für eine Kontrolle? – Finden Sie direkt in unsere
 <hr />
 <div class="filialen">
   <div class="niederlassung">
-    <h3 id="kontakt">Kontakt Hauptsitz</h3>
+    <h3 id="kontakt">Niederlassung Schaffhausen</h3>
     <p>simon gasser gmbh<br />
     elektrokontrollen<br />
-    Hauptstrasse 123<br />
-    8215 Hallau<br />
+    Brunnengasse 2<br />
+    8200 Schaffhausen<br />
     ☎️ <a style="color:#ff8000; padding:0.3em" href="tel:+41525572277">052 557 22 77</a><br />
     📧 <a style="color:#ff8000; padding:0.3em" href="mailto:info@simon-gasser.ch?subject=Kontakt">info@simon-gasser.ch</a></p>
   </div>
