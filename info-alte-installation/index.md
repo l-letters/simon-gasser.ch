@@ -8,7 +8,7 @@ title: Info alte Installation
 
   <h3>Ausgangslage</h3>
   <p>Die Nullung Schema III mit gemeinsam geführtem Neutral- und Schutzleiter (PEN) als Schutzart in der Hausinstallation wird seit 1975 nicht mehr angewendet und ist seit 1985 verboten. Seither werden Neutral- und Schutzleiter getrennt geführt (Nullung TN-S) damit verbesserte sich der Schutz in der elektrischen Installation und vor allem auch der gesteckten Verbraucher. Zusätzlich können in diesen neuen Installationen auch RCD (Fehlerstromschutzschalter) eingesetzt werden, die zum ersten Mal einen wirklichen Personenschutz erreichen.</p>
-  <p>Elektrische Installationen und Verbraucher werden auch in Haushalten immer komplexer und damit auch störungsanfälliger. Moderne elektrische Installationen erfüllen diese Kriterien.</p>
+  <p>Elektrische Installationen und Verbraucher werden auch in Haushalten immer komplexer und damit auch störungsanfälliger, was hohe Anforderungen an die Zuverlässigkeit der Installationen stellt. Moderne elektrische Installationen erfüllen diese Kriterien.</p>
   <p>Der Gesetzgeber verlangt, dass elektrische Installationen
     <ol>
       <li><em>"Elektrische Installationen müssen nach den anerkannten Regeln der Technik erstellt, geändert, in Stand gehalten und kontrolliert werden. Sie dürfen bei bestimmungsgemässem und möglichst auch bei voraussehbarem unsachgemässem Betrieb oder Gebrauch sowie in voraussehbaren Störungsfällen weder Personen noch Sachen oder Tiere gefährden." <a href="https://www.fedlex.admin.ch/eli/cc/2002/22/de#art_3" target="_blank">NIV Art. 3</a></em></li>
