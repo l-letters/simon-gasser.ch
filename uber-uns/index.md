@@ -46,7 +46,7 @@ title: Über uns
   <hr>
   <div class="filialen">
     <div class="niederlassung">
-      <h3 id="kontakt">Kontakt Niederlassung</h3>
+      <h3 id="kontakt">Zweigniederlassung Schaffhausen</h3>
       <p>simon gasser gmbh<br />
       elektrokontrollen<br />
       Brunnengasse 2<br />
@@ -56,7 +56,7 @@ title: Über uns
     </div>
 
     <div class="niederlassung">
-      <h3 id="kontakt">Niederlassung Flawil</h3>
+      <h3 id="hauptsitz">Hauptsitz Flawil</h3>
       <p>simon gasser gmbh<br />
       elektrokontrollen<br />
       Krankenhausstrasse 14<br />
