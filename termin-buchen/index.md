@@ -9,6 +9,8 @@ title: Termin buchen
 
 Sie benötigen einen Termin für eine Kontrolle? – Finden Sie direkt in unserem Kalender einen für Sie passenden Termin:</p>
 
+<p>Das Büro ist telefonisch erreichbar: Montag bis Donnerstag, 9 bis 12 Uhr. Den Termin buchen Sie hier direkt.</p>
+
 <!-- SuperSaas Skript Kalender Schaffhausen -->
 <div id="supersaas-container-sh">
   <script src="https://cdn.supersaas.net/widget.js"></script>

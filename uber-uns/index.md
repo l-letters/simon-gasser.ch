@@ -44,6 +44,7 @@ title: Über uns
   </div>
 
   <hr>
+  <p>Telefonzeiten: Montag bis Donnerstag, 9 bis 12 Uhr. Freitag ist das Büro telefonisch nicht besetzt. Termine buchen Sie im <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}">Kalender</a>. Per E-Mail und WhatsApp sind wir auch ausserhalb dieser Zeiten erreichbar.</p>
   <div class="filialen">
     <div class="niederlassung">
       <h3 id="kontakt">Zweigniederlassung Schaffhausen</h3>
