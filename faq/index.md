@@ -32,7 +32,7 @@ faq:
 
   <p>Hier beantworten wir die Fragen, die uns Hauseigentümer am häufigsten stellen. Ihre Frage ist nicht dabei? Rufen Sie uns an oder <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}">buchen Sie direkt einen Termin</a>.</p>
 
-  <!-- TODO Simon: Fakten bitte prüfen (Kontrollperioden, Handänderung 5 Jahre, Dauer «selten mehr als 1,5 Stunden» (von Simon bestätigt)). Preisfrage bewusst ohne Zahl – optional Preisrahmen ergänzen. -->
+  <!-- Von Simon bestätigt: Kontrollperioden, Handänderung 5 Jahre, Dauer max. ca. 1,5 h. Preisfrage bewusst ohne Zahl – optional Preisrahmen ergänzen. -->
   {% for f in page.faq %}
   <h2 id="frage-{{ forloop.index }}">{{ f.frage }}</h2>
   {{ f.antwort | markdownify }}
