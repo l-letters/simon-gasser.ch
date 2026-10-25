@@ -13,7 +13,7 @@ schema_standort: flawil
 
   <p><strong>Persönlich, unabhängig und unkompliziert:</strong> Sie buchen Ihren Termin direkt online, und die Kontrolle macht ein Kontrolleur, den Sie mit Namen kennen.</p>
 
-  <p>👉 <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}"><strong>Termin online buchen</strong></a> 🗓 oder anrufen: <a style="color:#ff8000" href="tel:{{ s.telefon_link }}">{{ s.telefon_anzeige }}</a></p>
+  <p>👉 <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}"><strong>Termin online buchen</strong></a> 🗓 Jederzeit möglich, ohne Warten am Telefon. Telefonisch sind wir Montag bis Donnerstag, 9 bis 12 Uhr erreichbar, siehe <a style="color:#ff8000" href="#kontakt">Kontakt</a>.</p>
 
   <h2 id="leistungen">Unsere Leistungen in der Region Flawil</h2>
   <ul>
