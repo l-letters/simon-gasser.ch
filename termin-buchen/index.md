@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Termin buchen
+description: "Termin für Ihre Elektrokontrolle online buchen: Standorte Schaffhausen (052 557 22 77) und Flawil (071 554 80 00). simon gasser elektrokontrollen."
 ---
 
 <div class="page">

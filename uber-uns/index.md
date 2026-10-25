@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Über uns
+description: "Über simon gasser elektrokontrollen: unabhängiges Kontrollunternehmen mit Hauptsitz in Flawil und Zweigniederlassung in Schaffhausen. Kompetent, einfach, persönlich."
 ---
 
 <div class="page">

@@ -13,6 +13,18 @@
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+  {%- assign meta_description = page.description | default: site.description | strip_html | strip_newlines | strip %}
+  <meta name="description" content="{{ meta_description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_CH">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ page.image | default: '/assets/images/Logo-langs.png' | absolute_url }}">
+
+  {% include schema.html %}
+
   <link rel="preload" href="{{ "/assets/fonts/iAWriterDuospace-Regular.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/poole.css" | relative_url }}">
