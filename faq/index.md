@@ -12,7 +12,7 @@ faq:
   - frage: "Wie läuft eine Elektrokontrolle ab?"
     antwort: "Wir kontrollieren den Sicherungskasten, lösen die FI-Schutzschalter aus, messen den Isolationswiderstand, prüfen die Verbindungen (Schraubenkontrolle) und machen eine Sichtkontrolle. Danach gehen wir durch alle Räume und prüfen die frei zugänglichen Steckdosen und Installationen. Fragen zu Ihrer Installation können Sie direkt vor Ort stellen."
   - frage: "Wie lange dauert die Kontrolle?"
-    antwort: "Die Dauer hängt von der Grösse und vom Alter der Installation ab. Bei einem Einfamilienhaus ist die Kontrolle meist in wenigen Stunden erledigt. Bei der Terminbuchung sehen Sie, wie viel Zeit wir einplanen."
+    antwort: "Die Dauer hängt von der Grösse und vom Alter der Installation ab. Bei einem Einfamilienhaus dauert die Kontrolle selten länger als anderthalb Stunden. Bei der Terminbuchung sehen Sie, wie viel Zeit wir einplanen."
   - frage: "Was passiert, wenn Mängel gefunden werden?"
     antwort: "Sie erhalten einen Kontrollbericht mit den Mängeln. Auf Wunsch senden wir ihn direkt Ihrem Elektroinstallateur, der die Mängel behebt. Sobald er uns die Behebung bestätigt hat, stellen wir den Sicherheitsnachweis aus und senden ihn ans Elektrizitätswerk. Bei grösseren, gefährlichen Mängeln machen wir eine kurze Nachkontrolle."
   - frage: "Brauche ich beim Verkauf meines Hauses einen Sicherheitsnachweis?"
@@ -32,7 +32,7 @@ faq:
 
   <p>Hier beantworten wir die Fragen, die uns Hauseigentümer am häufigsten stellen. Ihre Frage ist nicht dabei? Rufen Sie uns an oder <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}">buchen Sie direkt einen Termin</a>.</p>
 
-  <!-- TODO Simon: Fakten bitte prüfen (Kontrollperioden, Handänderung 5 Jahre, Dauer «wenige Stunden»). Preisfrage bewusst ohne Zahl – optional Preisrahmen ergänzen. -->
+  <!-- TODO Simon: Fakten bitte prüfen (Kontrollperioden, Handänderung 5 Jahre, Dauer «selten mehr als 1,5 Stunden» (von Simon bestätigt)). Preisfrage bewusst ohne Zahl – optional Preisrahmen ergänzen. -->
   {% for f in page.faq %}
   <h2 id="frage-{{ forloop.index }}">{{ f.frage }}</h2>
   {{ f.antwort | markdownify }}
