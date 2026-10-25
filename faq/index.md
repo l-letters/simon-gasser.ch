@@ -24,7 +24,7 @@ faq:
   - frage: "Wie buche ich einen Termin?"
     antwort: "Sie buchen Ihren Termin direkt online in unserem Kalender unter [Termin buchen](/termin-buchen/). Telefonisch erreichen Sie uns Montag bis Donnerstag von 9 bis 12 Uhr: Schaffhausen 052 557 22 77, Flawil 071 554 80 00."
   - frage: "In welchen Regionen sind Sie tätig?"
-    antwort: "Wir haben zwei Standorte: Schaffhausen (Brunnengasse 2) für die Region Schaffhausen, Weinland und Winterthur und den Hauptsitz in Flawil (Krankenhausstrasse 14) für Flawil, Gossau, Uzwil, Wil, Herisau und Umgebung."
+    antwort: "Wir haben zwei Standorte: Schaffhausen (Brunnengasse 2) für die Region Schaffhausen, Weinland und Winterthur und den Hauptsitz in Flawil (Krankenhausstrasse 14) für Flawil, Gossau, Uzwil, Degersheim, Wil, St. Gallen, Herisau und Umgebung."
 ---
 
 <div class="page">

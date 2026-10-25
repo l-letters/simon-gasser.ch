@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Elektrokontrolle & SiNa Flawil
-description: "Unabhängige Elektrokontrolle und Sicherheitsnachweis (SiNa) in Flawil, Gossau, Uzwil, Wil und Herisau. Hauptsitz Krankenhausstrasse 14, 9230 Flawil, 071 554 80 00. Termin online buchen."
+description: "Unabhängige Elektrokontrolle und Sicherheitsnachweis (SiNa) in Flawil, Gossau, Uzwil, Degersheim, Wil, St. Gallen und Herisau. Hauptsitz Krankenhausstrasse 14, 9230 Flawil, 071 554 80 00. Termin online buchen."
 schema_standort: flawil
 ---
 {%- assign s = site.data.standorte.flawil -%}
@@ -9,7 +9,7 @@ schema_standort: flawil
 <div class="page">
   <h1 class="page-title">Elektrokontrolle &amp; Sicherheitsnachweis (SiNa) in Flawil</h1>
 
-  <p><strong>simon gasser elektrokontrollen</strong> hat seinen Hauptsitz in Flawil. Von hier aus kontrollieren wir als unabhängiges Kontrollunternehmen elektrische Installationen in Flawil, Gossau, Uzwil, Wil, Herisau und Umgebung und stellen den Sicherheitsnachweis (SiNa) aus, den Ihr Elektrizitätswerk verlangt.</p>
+  <p><strong>simon gasser elektrokontrollen</strong> hat seinen Hauptsitz in Flawil. Von hier aus kontrollieren wir als unabhängiges Kontrollunternehmen elektrische Installationen in Flawil, Gossau, Uzwil, Degersheim, Wil, St. Gallen, Herisau und Umgebung und stellen den Sicherheitsnachweis (SiNa) aus, den Ihr Elektrizitätswerk verlangt.</p>
 
   <p><strong>Persönlich, unabhängig und unkompliziert:</strong> Sie buchen Ihren Termin direkt online, und die Kontrolle macht ein Kontrolleur, den Sie mit Namen kennen.</p>
 
