@@ -20,7 +20,7 @@ faq:
   - frage: "Was gilt bei alten Installationen (Nullung Schema III)?"
     antwort: "Seit August 2024 gelten für Installationen mit Nullung Schema III (in der Regel vor ca. 1975 erstellt) verschärfte Auflagen des ESTI. Mehr dazu auf unserer Seite [Info alte Installation](/info-alte-installation/)."
   - frage: "Was kostet eine Elektrokontrolle?"
-    antwort: "Der Preis hängt von der Art und Grösse der Liegenschaft und vom Umfang der Installation ab. Rufen Sie uns an oder schreiben Sie uns, dann nennen wir Ihnen den Preis für Ihr Objekt."
+    antwort: "Eine Kontrolle kostet bei uns CHF 410 zuzüglich MwSt. für bis zu 1,5 Stunden Kontrollzeit vor Ort. Das reicht für die meisten Einfamilienhäuser. Ist die Kontrolle vor Ort aufwändiger, verrechnen wir CHF 140 pro Stunde zuzüglich MwSt. Unser Preis hängt nicht davon ab, ob wir Mängel finden: Wir verdienen nicht an Mängeln, und die Mängelbehebung machen Sie mit dem Installateur Ihrer Wahl. Bei grösseren Liegenschaften oder Gewerbeobjekten nennen wir Ihnen den Preis gerne vorab."
   - frage: "Wie buche ich einen Termin?"
     antwort: "Sie buchen Ihren Termin direkt online in unserem Kalender unter [Termin buchen](/termin-buchen/). Telefonisch erreichen Sie uns Montag bis Donnerstag von 9 bis 12 Uhr: Schaffhausen 052 557 22 77, Flawil 071 554 80 00."
   - frage: "In welchen Regionen sind Sie tätig?"
@@ -32,7 +32,7 @@ faq:
 
   <p>Hier beantworten wir die Fragen, die uns Hauseigentümer am häufigsten stellen. Ihre Frage ist nicht dabei? Rufen Sie uns an oder <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}">buchen Sie direkt einen Termin</a>.</p>
 
-  <!-- Von Simon bestätigt: Kontrollperioden, Handänderung 5 Jahre, Dauer max. ca. 1,5 h. Preisfrage bewusst ohne Zahl – optional Preisrahmen ergänzen. -->
+  <!-- Von Simon bestätigt: Kontrollperioden, Handänderung 5 Jahre, Dauer max. ca. 1,5 h. Preis (410 + MwSt. bis 1,5 h, danach 140/h) von Simon geliefert, bitte Wortlaut prüfen. -->
   {% for f in page.faq %}
   <h2 id="frage-{{ forloop.index }}">{{ f.frage }}</h2>
   {{ f.antwort | markdownify }}
