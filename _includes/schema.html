@@ -1,0 +1,85 @@
+{%- comment -%}
+  Schema.org JSON-LD. Organisation auf allen Seiten,
+  Standort-Daten auf der Startseite und den Standortseiten,
+  FAQPage auf Seiten mit page.faq.
+{%- endcomment -%}
+{%- assign sh = site.data.standorte.schaffhausen -%}
+{%- assign fl = site.data.standorte.flawil -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://simon-gasser.ch/#organisation",
+  "name": "simon gasser gmbh",
+  "alternateName": "simon gasser elektrokontrollen",
+  "url": "https://simon-gasser.ch/",
+  "logo": {{ "/assets/images/Logo-langs.png" | absolute_url | jsonify }},
+  "email": "info@simon-gasser.ch",
+  "slogan": "kompetent, einfach, persönlich",
+  "description": "Unabhängige Elektrokontrollen und Sicherheitsnachweise (SiNa) für Hauseigentümer, Immobilienverwaltungen und Installationsfirmen in der Region Schaffhausen und Ostschweiz.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ fl.strasse | jsonify }},
+    "postalCode": {{ fl.plz | jsonify }},
+    "addressLocality": {{ fl.ort | jsonify }},
+    "addressRegion": {{ fl.kanton | jsonify }},
+    "addressCountry": "CH"
+  },
+  "telephone": {{ fl.telefon | jsonify }},
+  "location": [ { "@id": {{ fl.id | jsonify }} }, { "@id": {{ sh.id | jsonify }} } ]
+}
+</script>
+{%- if page.url == "/" or page.schema_standort -%}
+{%- if page.schema_standort -%}
+  {%- assign standorte = page.schema_standort | split: "," -%}
+{%- else -%}
+  {%- assign standorte = "flawil,schaffhausen" | split: "," -%}
+{%- endif -%}
+{%- for key in standorte -%}
+{%- assign s = site.data.standorte[key] %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": {{ s.id | jsonify }},
+  "name": {{ s.name | jsonify }},
+  "url": {{ s.url | jsonify }},
+  "image": {{ "/assets/images/Logo-langs.png" | absolute_url | jsonify }},
+  "telephone": {{ s.telefon | jsonify }},
+  "email": "info@simon-gasser.ch",
+  "parentOrganization": { "@id": "https://simon-gasser.ch/#organisation" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ s.strasse | jsonify }},
+    "postalCode": {{ s.plz | jsonify }},
+    "addressLocality": {{ s.ort | jsonify }},
+    "addressRegion": {{ s.kanton | jsonify }},
+    "addressCountry": "CH"
+  },
+  "areaServed": [{% for o in s.gebiet %}{ "@type": "City", "name": {{ o | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "knowsAbout": {{ site.data.standorte.leistungen | jsonify }},
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Elektrokontrollen",
+    "itemListElement": [{% for l in site.data.standorte.leistungen %}{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": {{ l | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}]
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {{ "/termin-buchen/" | absolute_url | jsonify }},
+    "name": "Termin online buchen"
+  }
+}
+</script>
+{%- endfor -%}
+{%- endif -%}
+{%- if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{% for f in page.faq %}
+    { "@type": "Question", "name": {{ f.frage | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.antwort | markdownify | strip_html | strip_newlines | strip | jsonify }} } }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}
+</script>
+{%- endif %}

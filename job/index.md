@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Job
+description: "Job bei simon gasser elektrokontrollen: Elektro-Sicherheitsberater mit eidgenössischer Kontrollbewilligung gesucht."
 ---
 
 <div class="page">

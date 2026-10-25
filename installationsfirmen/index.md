@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Installationsfirmen
+description: "Unabhängige Kontrollen und Abnahmekontrollen für Installationsfirmen in der Region Schaffhausen, Winterthur und Ostschweiz. Daten per ElektroForm-Dossier, Sicherheitsnachweis und Korrespondenz mit dem EW."
 ---
 
 <div class="page">
