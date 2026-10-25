@@ -38,7 +38,7 @@ schema_standort: flawil
   <p>Vom Hauptsitz in Flawil aus sind wir unterwegs in {% for o in s.gebiet %}{{ o }}{% if forloop.rindex == 2 %} und {% elsif forloop.last == false %}, {% endif %}{% endfor %} sowie in den umliegenden Gemeinden. Ihr Ort ist nicht dabei? Fragen Sie uns einfach.</p>
 
   <h2 id="kontrolleur">Ihr Kontrolleur: Simon Gasser</h2>
-  <!-- TODO Simon: Bitte prüfen, ob hier das bestehende Porträt bleiben soll oder ob ein Foto im Einsatz (z. B. am Sicherungskasten / am Standort Flawil) besser passt. Wer kontrolliert in der Region Flawil effektiv? Falls jemand anderes, Name/Foto anpassen. -->
+  <!-- TODO Simon: Optional ein Foto im Einsatz (Sicherungskasten / Standort Flawil) statt des Porträts. -->
   <div class="mitarbeiter">
     <div class="mitarbeiter-einzeln">
       <img src="{{ "/assets/images/Simon.jpg" | relative_url }}" alt="Simon Gasser, Elektrokontrolleur" width="200" style="border-radius:50%" />
@@ -46,7 +46,7 @@ schema_standort: flawil
       Inhaber
     </div>
   </div>
-  <p>Bei uns wissen Sie, wer zu Ihnen nach Hause kommt. Simon Gasser und sein Team arbeiten seit über zehn Jahren daran, Elektrokontrollen für alle Beteiligten einfach und unkompliziert zu machen. Haben Sie Fragen zu Ihrer Installation, fragen Sie einfach direkt bei der Kontrolle nach. Mehr <a style="color:#ff8000" href="{{ "/uber-uns/" | relative_url }}">über uns</a>.</p>
+  <p>Bei uns wissen Sie, wer zu Ihnen nach Hause kommt. In Flawil kontrolliert vorwiegend Simon Gasser selbst. Wir arbeiten seit über zehn Jahren daran, Elektrokontrollen für alle Beteiligten einfach und unkompliziert zu machen. Haben Sie Fragen zu Ihrer Installation, fragen Sie einfach direkt bei der Kontrolle nach. Mehr <a style="color:#ff8000" href="{{ "/uber-uns/" | relative_url }}">über uns</a>.</p>
 
   <hr />
   <div class="filialen">

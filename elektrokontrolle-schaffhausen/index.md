@@ -37,16 +37,21 @@ schema_standort: schaffhausen
   <h2 id="einzugsgebiet">Einzugsgebiet</h2>
   <p>Vom Standort Schaffhausen aus sind wir unterwegs in {% for o in s.gebiet %}{{ o }}{% if forloop.rindex == 2 %} und {% elsif forloop.last == false %}, {% endif %}{% endfor %} sowie in den umliegenden Gemeinden. Ihr Ort ist nicht dabei? Fragen Sie uns einfach.</p>
 
-  <h2 id="kontrolleur">Ihr Kontrolleur: Simon Gasser</h2>
-  <!-- TODO Simon: Bitte prüfen, ob hier das bestehende Porträt bleiben soll oder ob ein Foto im Einsatz (z. B. am Sicherungskasten / mit Firmenauto in Schaffhausen) besser passt. Foto unter /assets/images/ ablegen und Pfad hier anpassen. -->
+  <h2 id="kontrolleur">Ihre Kontrolleure in Schaffhausen</h2>
+  <!-- TODO Simon: Fotos von Felix, Marco und Flavio (und ggf. Nachnamen) unter /assets/images/ ablegen, dann hier als weitere Karten ergänzen. -->
   <div class="mitarbeiter">
     <div class="mitarbeiter-einzeln">
       <img src="{{ "/assets/images/Simon.jpg" | relative_url }}" alt="Simon Gasser, Elektrokontrolleur" width="200" style="border-radius:50%" />
       <strong>Simon Gasser</strong><br />
       Inhaber
     </div>
+    <div class="mitarbeiter-einzeln">
+      <img src="{{ "/assets/images/Remo.jpg" | relative_url }}" alt="Remo Rütimann, Elektrokontrolleur" width="200" style="border-radius:50%" />
+      <strong>Remo Rütimann</strong><br />
+      Projektleiter
+    </div>
   </div>
-  <p>Bei uns wissen Sie, wer zu Ihnen nach Hause kommt. Simon Gasser und sein Team arbeiten seit über zehn Jahren daran, Elektrokontrollen für alle Beteiligten einfach und unkompliziert zu machen. Haben Sie Fragen zu Ihrer Installation, fragen Sie einfach direkt bei der Kontrolle nach. Mehr <a style="color:#ff8000" href="{{ "/uber-uns/" | relative_url }}">über uns</a>.</p>
+  <p>In Schaffhausen kontrollieren Simon, Remo, Felix, Marco und Flavio. Bei uns wissen Sie, wer zu Ihnen nach Hause kommt. Wir arbeiten seit über zehn Jahren daran, Elektrokontrollen für alle Beteiligten einfach und unkompliziert zu machen. Haben Sie Fragen zu Ihrer Installation, fragen Sie einfach direkt bei der Kontrolle nach. Mehr <a style="color:#ff8000" href="{{ "/uber-uns/" | relative_url }}">über uns</a>.</p>
 
   <hr />
   <div class="filialen">
