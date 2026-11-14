@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Info alte Installation
+description: "Neue Risikobeurteilung alter elektrischer Installationen mit Nullung Schema III: was die ESTI-Weisung für Hauseigentümer bedeutet."
 ---
 
 <div class="page">

@@ -1,0 +1,47 @@
+# Öffentliche Standorte (NAP). Nur diese zwei Adressen verwenden.
+schaffhausen:
+  id: "https://simon-gasser.ch/elektrokontrolle-schaffhausen/#standort"
+  name: "simon gasser gmbh elektrokontrollen – Schaffhausen"
+  url: "https://simon-gasser.ch/elektrokontrolle-schaffhausen/"
+  strasse: "Brunnengasse 2"
+  plz: "8200"
+  ort: "Schaffhausen"
+  kanton: "SH"
+  telefon: "+41 52 557 22 77"
+  telefon_anzeige: "052 557 22 77"
+  telefon_link: "+41525572277"
+  gebiet:
+    - Schaffhausen
+    - Neuhausen am Rheinfall
+    - Beringen
+    - Thayngen
+    - Klettgau
+    - Andelfingen
+    - Rheinau
+    - Diessenhofen
+    - Winterthur
+flawil:
+  id: "https://simon-gasser.ch/elektrokontrolle-flawil/#standort"
+  name: "simon gasser gmbh elektrokontrollen – Flawil (Hauptsitz)"
+  url: "https://simon-gasser.ch/elektrokontrolle-flawil/"
+  strasse: "Krankenhausstrasse 14"
+  plz: "9230"
+  ort: "Flawil"
+  kanton: "SG"
+  telefon: "+41 71 554 80 00"
+  telefon_anzeige: "071 554 80 00"
+  telefon_link: "+41715548000"
+  gebiet:
+    - Flawil
+    - Gossau
+    - Uzwil
+    - Degersheim
+    - Wil
+    - St. Gallen
+    - Herisau
+leistungen:
+  - Periodische Kontrolle elektrischer Installationen
+  - Sicherheitsnachweis (SiNa)
+  - Abnahmekontrolle
+  - Kontrolle bei Handänderung
+  - Unabhängige Kontrolle für Installationsfirmen

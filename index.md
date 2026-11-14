@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hauseigentümer
+description: "Elektrokontrolle und Sicherheitsnachweis (SiNa) für Hauseigentümer in Schaffhausen, Flawil und Umgebung: unabhängig, persönlich, Termin online buchen. simon gasser elektrokontrollen."
 ---
 
 <h1 id="hauseigentümer">Hauseigentümer</h1>
@@ -11,6 +12,8 @@ Sie sind Eigentümer eines <strong>Einfamilienhauses</strong> 🏠 oder <strong>
 <p>Oder möchten Sie Ihre Liegenschaft verkaufen und benötigen einen <strong>Sicherheitsnachweis?</strong> 📄</p>
 
 <p>Dann sind Sie hier genau richtig.</p>
+
+<p>Wir sind ein unabhängiges Kontrollunternehmen mit Standorten in <a style="color:#ff8000" href="{{ "/elektrokontrolle-schaffhausen/" | relative_url }}">Schaffhausen</a> und <a style="color:#ff8000" href="{{ "/elektrokontrolle-flawil/" | relative_url }}">Flawil</a>. Ihren Termin buchen Sie direkt <a style="color:#ff8000" href="{{ "/termin-buchen/" | relative_url }}">online</a> 🗓. Antworten auf die wichtigsten Fragen finden Sie in den <a style="color:#ff8000" href="{{ "/faq/" | relative_url }}">FAQ</a>.</p>
 
 <h2 id="die-periodische-kontrolle-der-elektrischen-installation">Die periodische Kontrolle der elektrischen Installation</h2>
 
